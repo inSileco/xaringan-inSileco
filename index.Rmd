@@ -1,0 +1,132 @@
+---
+title: "Xaringan inSileco template"
+# subtitle: ""
+author: "inSileco"
+date: "2018/02/16"
+output:
+  xaringan::moon_reader:
+    includes:
+      in_header: inSileco-header.html  
+    lib_dir: assets
+    seal: false
+    css: ["default", "inSileco.css", "inSileco-fonts.css"]
+    nature:
+      beforeInit: "inSileco-macros.js"
+      #autoplay: 30000
+      #countdown: 60000
+---
+
+```{r setup, echo = F}
+knitr::opts_chunk$set(
+  comment = "#R>",
+  collapse = TRUE,
+  warning = FALSE,
+  message = FALSE,
+  fig.width = 7.5,
+  fig.height = 6,
+  fig.align = 'center',
+  width = 120
+)
+mypar <- list(fg = "#303940", bg = "transparent", las = 1)
+```
+
+
+<br><br><br>
+
+.maintitle[<i class="fa fa-angle-double-right" aria-hidden="true"></i>Xaringan inSileco template]
+
+
+<br><br>
+
+.column[
+## Draft 0.1 - May 17, 2017
+
+.left[![:faic](github) [inSileco/xaringan-inSileco](https://github.com/inSileco/xaringan-inSileco)]
+]
+
+.column[
+.right[![:scale 16%](assets/img/inSilecoLogo.png)]
+]
+
+
+
+
+
+
+
+
+
+---
+class: inverse, center, middle
+
+# Part 1
+
+## a nice subtitle
+
+
+---
+
+# Modifying text
+
+
+.column[
+
+## Classes
+
+normal size ( $\LaTeX$-friendly terms)
+
+`.huge[Large]` &nbsp; .huge[Large]
+
+`.large[large]` &nbsp; .large[large]
+
+`.small[small]` &nbsp; .small[small]
+
+`.tiny[tiny]` &nbsp; .small[tiny]
+
+]
+
+
+.column[
+
+## Use remarkjs's macros
+
+- `![:scale 40%](path/to/img.png)` to scale an image
+
+- `![:faic](github)` &nbsp; ![:faic](github)
+
+- `![:acic](github)` &nbsp; ![:acic](orcid)
+
+
+]
+
+
+
+---
+class: inverse, center, middle
+
+# Use R!
+
+## Few examples
+
+---
+
+```{r}
+rnorm(100)
+```
+
+---
+
+```{r, message = F, fig.width = 9, fig.height = 5.4}
+library(mapview)
+mapview(breweries)
+```
+
+---
+
+```{r, echo = F, fig.align = "center"}
+seqx <- seq(0,10, length = 100)
+par(mypar)
+par(bty = "l")
+plot(seqx, cos(seqx), type = "l", lwd = 4)
+abline(v = 6, h = 0, col = "#3fb3b2", lty = 2)
+```

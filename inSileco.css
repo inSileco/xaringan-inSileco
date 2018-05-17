@@ -1,0 +1,126 @@
+a, a > code {
+  color: #3fb3b2;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.remark-code-line-highlighted {
+  background-color: #ffdd55;
+}
+
+.remark-slide-content {
+  border-right: 5px solid #303940;
+  border-left: 5px solid #303940;
+  padding: .8em 1em .8em 1em
+}
+
+.remark-slide-content > h1 {
+  font-weight: normal;
+  margin-top: 10px;
+  margin-left: -00px;
+}
+
+.remark-slide-content h2 { font-size: 1.5em; }
+
+.remark-slide-content h3 { font-size: 1.3em; }
+
+.remark-code, .remark-inline-code {
+    color: #303940;
+    background-color: #f3f3f3;  font-size: 90%;
+}
+
+h1 {
+  border-bottom: 3px solid;
+}
+
+
+h3 {
+    padding-left: 0.4em;
+}
+
+
+.huge {
+  font-size: 2em;
+}
+
+.large {
+  font-size: 1.5em;
+}
+
+.small {
+  font-size: .9em;
+}
+
+.tiny {
+  font-size: .6em;
+}
+
+.footnote {
+  position: absolute;
+  bottom: 3em;
+  padding-right: 4em;
+  font-size: 60%;
+}
+
+.column:first-of-type {
+  float:left;
+  width: 50%;
+  padding: .1em .5em .1em .1em
+}
+.column:last-of-type {
+  float:right;
+  width: 50%;
+  padding:  .1em .1em .1em .5em
+}
+
+
+.remark-slide-content blockquote {
+  font-size: 1.2em;
+  padding-left: 1em;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+  color: #303940;
+}
+
+
+
+.inverse {
+  border-left: 5px solid #f3f3f3;
+  border-right: 5px solid #f3f3f3;
+  background-color: #303940;
+  color: #f3f3f3;
+}
+
+.inverse h1, .inverse h2, .inverse h3 {
+  color: #f3f3f3;
+}
+
+
+table {
+  margin: auto;
+  font-size: 90%;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+}
+
+
+.shrink {
+  margin: auto;
+  width: 90%;
+}
+
+.enlarge {
+  margin: auto;
+  width: 110%;
+}
+
+
+
+/* for titke page  */
+.maintitle {
+  font-size: 3.4em;
+  color: #303940;
+  text-align: center;
+}

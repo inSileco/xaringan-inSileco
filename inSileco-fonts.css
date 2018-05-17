@@ -1,0 +1,23 @@
+/* Code font */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic');
+/* Title code */
+@import url('https://fonts.googleapis.com/css?family=Anton|Bevan|Black+Han+Sans|Luckiest+Guy|Bowlby+One|Lalezar');
+/* Body */
+@import url('https://fonts.googleapis.com/css?family=Arya');
+
+
+body {
+  font-family: 'Arya';
+}
+
+h1 {
+  font-family: 'Lalezar', cursive;
+}
+
+.maintitle {
+  font-family: 'Lalezar', cursive;
+}
+
+.remark-code, .remark-inline-code {
+    font-family: 'Ubuntu Mono';
+}
