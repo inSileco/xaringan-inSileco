@@ -3,7 +3,7 @@
 Xaringan inSileco template.
 
 
-# About
+## About
 
 The [xaringan](https://github.com/yihui/xaringan) R package eases the creation
 of slideshows with [remarkjs](https://remarkjs.com/#1) through R Markdown.
@@ -15,7 +15,7 @@ for instance [KevCaz/talkBES2017](https://github.com/KevCaz/talkBES2017).
 
 
 
-## References links (I expand the list created by @nanhung, see ref 3 below)
+## References links (expand the list created by @nanhung, see ref 3 below)
 
 1. [Xaringan](https://github.com/yihui/xaringan)  
 2. [R-Ladies template](https://alison.rbind.io/slides/rladies-demo-slides.html)  
