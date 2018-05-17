@@ -84,6 +84,17 @@ h1, h2, h3 {
   color: #303940;
 }
 
+.remark-help-content h1 {
+    color: #fff;
+}
+
+.remark-help {
+    color: #fff;
+}
+
+.remark-help tr:nth-child(even) {
+  background-color: #999;
+}
 
 
 .inverse {
