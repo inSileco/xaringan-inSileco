@@ -91,7 +91,7 @@ class: inverse, center, middle
 
 normal size ( $\LaTeX$-friendly terms)
 
-`.huge[Large]` &nbsp; .huge[Large]
+`.huge[huge]` &nbsp; .huge[huge]
 
 `.large[large]` &nbsp; .large[large]
 
