@@ -18,11 +18,11 @@ output:
 
 ```{r setup, echo = F}
 knitr::opts_chunk$set(
-  comment = "#R>",
+  comment = "#>",
   collapse = TRUE,
   warning = FALSE,
   message = FALSE,
-  fig.width = 7.5,
+  fig.width = 8,
   fig.height = 6,
   fig.align = 'center',
   width = 120
@@ -36,10 +36,10 @@ mypar <- list(fg = "#303940", bg = "transparent", las = 1)
 .maintitle[<i class="fa fa-angle-double-right" aria-hidden="true"></i>Xaringan inSileco template]
 
 
-<br><br>
+<br><br><br>
 
 .column[
-## Draft 0.1 - May 17, 2017
+#### Draft 0.2 - May 18, 2017
 
 .left[![:faic](github) [inSileco/xaringan-inSileco](https://github.com/inSileco/xaringan-inSileco)]
 ]
@@ -64,6 +64,22 @@ class: inverse, center, middle
 ## a nice subtitle
 
 
+
+---
+
+# Headers (level 1)
+
+## Header 2
+
+### Header 3
+
+#### Header 4
+
+##### Header 5
+
+###### Header 6
+
+
 ---
 
 # Modifying text
@@ -71,7 +87,7 @@ class: inverse, center, middle
 
 .column[
 
-## Classes
+#### Classes
 
 normal size ( $\LaTeX$-friendly terms)
 
@@ -88,7 +104,13 @@ normal size ( $\LaTeX$-friendly terms)
 
 .column[
 
-## Use remarkjs's macros
+#### Special class
+
+- `.alert[alert]` .alert[alert]
+
+- `.comment[comment]` .comment[comment]
+
+#### Use remarkjs's macros
 
 - `![:scale 40%](path/to/img.png)` to scale an image
 
