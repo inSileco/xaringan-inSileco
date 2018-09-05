@@ -1,7 +1,5 @@
 # xaringan-inSileco
 
-Xaringan inSileco template.
-
 
 ## About
 
@@ -12,6 +10,17 @@ and the nice example provided by the [TAMU template](https://github.com/nanhung/
 
 @KevCaz added macros he used in other remark presentations, see
 for instance [KevCaz/talkBES2017](https://github.com/KevCaz/talkBES2017).
+First use of this template (slightly modified) for [this presentation](https://kevcaz.github.io/fightingNoise/#1).
+
+
+## How to get a pdf version
+
+See the [wiki page](https://github.com/yihui/xaringan/wiki/Export-Slides-to-PDF) dealing with this. I personnaly use [decktape](https://github.com/astefanutti/decktape) like so:
+
+```
+decktape --no-sandbox file:///path/to/index.html /path2/to/talk.pdf
+```
+
 
 
 
