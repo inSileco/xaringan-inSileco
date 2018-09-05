@@ -12,18 +12,19 @@ output:
     css: ["default", "inSileco.css", "inSileco-fonts.css"]
     nature:
       beforeInit: "inSileco-macros.js"
+      highlightLines: false
       #autoplay: 30000
       #countdown: 60000
 ---
 
 ```{r setup, echo = F}
 knitr::opts_chunk$set(
-  comment = "#>",
+  comment = "#>>",
   collapse = TRUE,
   warning = FALSE,
   message = FALSE,
-  fig.width = 8,
-  fig.height = 6,
+  fig.width = 7,
+  fig.height = 5.25,
   fig.align = 'center',
   width = 120
 )
@@ -39,13 +40,13 @@ mypar <- list(fg = "#303940", bg = "transparent", las = 1)
 <br><br><br>
 
 .column[
-#### Draft 0.2 - May 18, 2017
+#### Draft 0.2.1 - September 5, 2018
 
 .left[![:faic](github) [inSileco/xaringan-inSileco](https://github.com/inSileco/xaringan-inSileco)]
 ]
 
 .column[
-.right[![:scale 16%](assets/img/inSilecoLogo.png)]
+.right[![:addlogo 15%]()]
 ]
 
 
@@ -81,11 +82,9 @@ class: inverse, center, middle
 
 
 ---
+# Format more
 
-# Modifying text
-
-
-.column[
+.pull-left[
 
 #### Classes
 
@@ -93,16 +92,20 @@ normal size ( $\LaTeX$-friendly terms)
 
 `.huge[huge]` &nbsp; .huge[huge]
 
+`.Large[Large]` &nbsp; .Large[Large]
+
 `.large[large]` &nbsp; .large[large]
 
 `.small[small]` &nbsp; .small[small]
 
-`.tiny[tiny]` &nbsp; .small[tiny]
+`.tiny[tiny]` &nbsp; .tiny[tiny]
+
+`.sotiny[sotiny]` &nbsp; .sotiny[sotiny]
 
 ]
 
 
-.column[
+.pull-right[
 
 #### Special class
 
@@ -118,6 +121,7 @@ normal size ( $\LaTeX$-friendly terms)
 
 - `![:acic](github)` &nbsp; ![:acic](orcid)
 
+- `![:addlogo 8%]()` &nbsp; ![:addlogo 8%]()
 
 ]
 
@@ -135,7 +139,18 @@ class: inverse, center, middle
 ---
 
 ```{r}
-rnorm(100)
+rnorm(88)
+```
+
+---
+# Highlight your code
+
+
+```{r results = "hold"}
+val <- 2
+{{ val*val }}
+val2 <- 5
+{{ val2 }}
 ```
 
 ---
@@ -146,6 +161,7 @@ mapview(breweries)
 ```
 
 ---
+# Custom plot 
 
 ```{r, echo = F, fig.align = "center"}
 seqx <- seq(0,10, length = 100)

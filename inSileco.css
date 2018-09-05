@@ -1,5 +1,6 @@
 .remark-code-line-highlighted {
-  background-color: #ffdd55;
+  background-color: #9FD9D8;
+  border-radius: 12px;
 }
 
 .remark-slide-content {
@@ -91,6 +92,10 @@ a, a > code {
 
 
 .huge {
+  font-size: 2.5em;
+}
+
+.Large {
   font-size: 2em;
 }
 
@@ -106,24 +111,16 @@ a, a > code {
   font-size: .5em;
 }
 
+.sotiny {
+  font-size: .25em;
+}
+
 .footnote {
   position: absolute;
   bottom: 3em;
   padding-right: 4em;
   font-size: 60%;
 }
-
-.column:first-of-type {
-  float:left;
-  width: 50%;
-  padding: .1em .5em .1em .1em
-}
-.column:last-of-type {
-  float:right;
-  width: 50%;
-  padding:  .1em .1em .1em .5em
-}
-
 
 .remark-slide-content blockquote {
   font-size: 1.1em;

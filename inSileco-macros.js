@@ -1,3 +1,10 @@
+// Add logo
+remark.macros.addlogo = function (percentage) {
+  var url = "assets/img/inSilecoLogo.png";
+  return '<img src="' + url + '" style="width: ' + percentage + '" />';
+};
+
+
 // Scale image (available on Remarkjs GH page)
 remark.macros.scale = function (percentage) {
   var url = this;
