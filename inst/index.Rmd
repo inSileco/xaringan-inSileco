@@ -1,0 +1,20 @@
+---
+title: "Your title"
+author: "Your name"
+output:
+  xaringan::moon_reader:
+    includes:
+      in_header: inSileco-header.html
+    lib_dir: assets
+    seal: true
+    css: ["default", "inSileco.css", "inSileco-fonts.css"]
+    nature:
+      beforeInit: "inSileco-macros.js"
+      highlightLines: false
+---
+
+# First slides
+
+---
+
+## Second

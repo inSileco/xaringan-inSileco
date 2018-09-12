@@ -90,17 +90,20 @@ a, a > code {
 }
 
 
+.Huge {
+  font-size: 2.8em;
+}
 
 .huge {
-  font-size: 2.5em;
+  font-size: 2.4em;
 }
 
 .Large {
-  font-size: 2em;
+  font-size: 1.8em;
 }
 
 .large {
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .small {
@@ -108,7 +111,7 @@ a, a > code {
 }
 
 .tiny {
-  font-size: .5em;
+  font-size: .4em;
 }
 
 .sotiny {
